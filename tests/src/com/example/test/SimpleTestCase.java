@@ -3,7 +3,12 @@ package com.example.test;
 import junit.framework.TestCase;
 
 public class SimpleTestCase extends TestCase {
-	public void testFoo() {
+	public void testBar() {
 		assertTrue(true);
+
+	}
+
+	public void testFoo() {
+		assertTrue(false);
 	}
 }
