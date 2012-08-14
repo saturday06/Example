@@ -6,7 +6,7 @@ import com.example.R;
 
 public class ResourceTestCase extends AndroidTestCase {
 	public void testFoo() {
-		assertEquals("Hello, World!",
+		assertEquals("Hello, world!",
 				getContext().getString(R.string.hello_world));
 	}
 }
