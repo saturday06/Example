@@ -8,7 +8,7 @@ public class ComplexTestCase extends TestCase {
 	}
 
 	public void testHogeFailure() {
-		//fail();
+		fail();
 	}
 
 	public void testFugaSuccess() {
@@ -16,6 +16,7 @@ public class ComplexTestCase extends TestCase {
 	}
 
 	public void testFugaFailure() {
+		fail();
 	}
 }
 

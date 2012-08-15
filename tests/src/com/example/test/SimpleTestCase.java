@@ -8,7 +8,7 @@ public class SimpleTestCase extends TestCase {
 	}
 
 	public void testBarFailure() {
-//		fail();
+		fail();
 	}
 
 	public void testFooSuccess() {
@@ -16,6 +16,6 @@ public class SimpleTestCase extends TestCase {
 	}
 
 	public void testFooFailure() {
-//		fail();
+		fail();
 	}
 }
