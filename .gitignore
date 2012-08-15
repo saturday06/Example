@@ -1,7 +1,5 @@
 .settings
 bin
 gen
-tests/bin
-tests/gen
-tests/.settings
+local.properties
 
