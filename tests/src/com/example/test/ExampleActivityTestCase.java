@@ -9,8 +9,8 @@ import com.example.ExampleActivity;
 
 public class ExampleActivityTestCase extends
 		ActivityInstrumentationTestCase2<ExampleActivity> {
-	public ExampleActivityTestCase(Class<ExampleActivity> activityClass) {
-		super(activityClass);
+	public ExampleActivityTestCase() {
+		super(ExampleActivity.class);
 	}
 
 	public void testRunOnUiThread() throws Exception {
@@ -23,3 +23,4 @@ public class ExampleActivityTestCase extends
 		assertTrue(cdl.await(10, TimeUnit.SECONDS));
 	}
 }
+
